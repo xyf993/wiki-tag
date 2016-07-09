@@ -1,0 +1,155 @@
+#brand_header{
+	.brand_carousel, .brand_list, .brand_text{
+		position: relative;
+		height: 360px;
+		float: left;
+		border-right: 2px solid #e6e6e6;
+	}
+
+	.brand_carousel{
+		width: 678px;
+	}
+
+	#carousel_viewport{
+		width: 678px;
+		height: 360px;
+		.category{
+			width: 678px;
+			height: 360px;
+			.category_box{		
+				top: -52px;
+				height: 62px;
+				left: 0px;
+			}
+			.category_wrap{
+				height: 74px;
+				padding-left: 20px;
+				.category_tit{
+					font-size: 22px;
+				}
+				.category_des{
+					.category_des_detail{
+						width: 590px;
+					}
+					.category_des_index{
+						float: left;
+						margin-left: 5px;
+						margin-top: -6px;
+						background-color: #000;
+						.cmn-opacity(0.7);
+						border-radius: 2px;
+						height: 30px;
+						line-height: 30px;
+						text-align: center;
+						width: 50px; 
+					}
+				}
+			}
+		  img{
+		  	width: 678px;
+		  	height: 360px;
+		  }
+		}
+		.button{
+		  top: 140px;
+		  width: 50px;
+		  em{
+		  	height: 80px;
+		  	line-height: 80px;
+		  }
+		  &.prev{
+				-webkie-transform: translateX(-50px);
+				-moz-transform: translateX(-50px);
+				-ms-transform: translateX(-50px);
+				-o-transform: translateX(-50px);
+				transform: translateX(-50px);
+				left: 0;
+		  }
+		  &.next{
+				right: 0;
+		  	-webkie-transform: translateX(50px);
+				-moz-transform: translateX(50px);
+				-ms-transform: translateX(50px);
+				-o-transform: translateX(50px);
+				transform: translateX(50px);
+		  }
+		}
+		&:hover{
+			.button{
+				-webkie-transform:none;
+				-moz-transform:none;
+				-ms-transform:none;
+				-o-transform:none;
+				transform:none;
+			}
+		}
+	}
+
+	.brand_list{
+		width: 200px;
+		.category{
+			height: 179px;
+			img{
+				width: 200px;
+				height: 179px;
+			}
+			.category_box{		
+					top: -40px;
+					height: 40px;
+					left: 0;
+				}
+				.category_wrap{
+					height: 40px;
+					padding-left: 20px;
+					background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.5));
+					.category_tit{
+						font-size: 20px;
+						height: 40px;
+  						line-height: 40px;
+					}
+				}
+		}
+		.brand_list_top{
+			border-bottom: 2px solid #e6e6e6;
+		}
+	}
+
+	.brand_text{
+		border: none;
+		width: 214px;
+		height: 260px;
+		background-color: #d3d1d1;
+		padding: 50px 42px;
+		text-align: center;
+		.brand_text_title{
+			font-size: 24px;
+		}
+		.brand_text_summary{
+			font-size: 14px;
+			text-align: center;
+			padding: 20px 0;
+			line-height: 22px;
+		}
+		.brand_text_lemma, .brand_text_trade{
+			font-size: 18px;
+			span{
+				font-size: 24px;
+			}
+		}
+		.brand_text_line{
+			height: 30px;
+			font-size: 14px;
+			div{
+				float: left;
+			}
+			.brand_text_line_block{
+				width: 100px;
+				margin-top: 10px;
+				border-top: 1px solid @cmn-color_font-darkgray;
+			}
+			.brand_text_line_char{
+				margin: 0 2px;
+			}
+		}
+	}
+}

@@ -1,0 +1,105 @@
+.header {
+    padding: 10px 0;
+    background: @cmn-color_baike-blue;
+    height: 30px;
+    h1 {
+        font-size: 18px;
+        color: #fff;
+        float: left;
+    }
+    a {
+        float: right;
+    }
+}
+
+.layout {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.mainCnt {
+    padding: 15px 60px;
+    background: #f5f8fa;
+    font-size: 15px;
+    font-weight: 600;
+    .line {
+        margin: 10px auto;
+    }
+    .poster-wrap {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        height: 160px;
+        width: 240px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+    }
+    .poster {
+        position: relative;
+        a {
+            position: absolute;
+            top: 20px;
+            left: 0;
+        }
+    }
+    .submitBtn {
+        margin: 0 auto;
+        width: 110px;
+        display: block;
+    }
+    .tagName {
+        .input-wrap {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 2px;
+            li {
+                span {
+                    display: inline-block;
+                    width: 60px;
+                    font-weight: 400;
+                }
+                input {
+                    vertical-align: top;
+                }
+            }
+        }
+        span {
+            cursor: pointer;
+            vertical-align: bottom;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.crop-dialog {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    display: none;
+    h3 {
+        line-height: 35px;
+        padding-left: 20px;
+        background: #fafbfc;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    a {
+        position: absolute;
+        bottom: 10px;
+        margin-top: 10px;
+    }
+    em {
+        position: absolute;
+        right: 4px;
+        top: 6px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+}

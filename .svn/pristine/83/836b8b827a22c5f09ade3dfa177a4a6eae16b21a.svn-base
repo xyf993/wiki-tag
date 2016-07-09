@@ -1,0 +1,19 @@
+#brand_advertise{
+	.brand_advertise_now, .brand_advertise_last{
+		position: relative;
+		height: 320px;
+		float: left;
+	}
+
+	.brand_advertise_now{
+		width: 880px;
+		margin-right: 4px;
+	}
+
+	.brand_advertise_last{
+		width: 296px;
+	}
+	.clear{
+		clear: both;
+	}
+}

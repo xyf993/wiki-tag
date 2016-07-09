@@ -1,0 +1,3 @@
+.cmn-font-icon('./resource/font/layout'; layout-icons;
+    ok,time
+);

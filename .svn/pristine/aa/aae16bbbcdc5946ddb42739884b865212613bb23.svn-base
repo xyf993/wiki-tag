@@ -1,0 +1,78 @@
+#memory{
+	.school_category_title{
+		height: 65px;
+    line-height: 65px;
+    .school_category_link{
+      color: @cmn-color_font;
+      font-size: 25px;
+      float: left;
+    }
+	}
+	.school_memory_content{
+		position: relative;
+	}
+	#viewport{
+		margin-left: 0;
+		width: 1200px;
+		height: 258px;
+		overflow: hidden;
+		position: relative;
+		.category{
+			width: 278px;
+			height: 256px;
+			position: relative;
+	  	float: left;
+	  	overflow: hidden;
+		  margin-right: 20px;
+		  border: 1px solid #e2e2e2;
+		  background: #fff;
+		  &:hover{
+		  	border-color: @cmn-color_baike-blue;
+		  }
+		  .category_tit{
+		  	color: @cmn-color_font;
+		  	font-size: 18px;
+		  	padding: 8px 18px 8px 20px;
+		  	&:hover{
+			  	color: @cmn-color_baike-blue;
+			  }
+		  }
+		  .category_des{
+		  	font-size: 14px;
+		  	padding: 0 18px 0 20px;
+		  	color: @cmn-color_font-lightgray;
+		  }
+		  img{
+		  	width: 278px;
+		  	height: 160px;
+		  }
+	  	a{
+	  		text-decoration:none;
+	  		outline:none;
+	  	}
+		}
+	}
+	.clear{
+		clear: both;
+	}
+	.button {
+	  position: absolute;
+	  top: 110px;
+	  width: 20px;
+	  height: 30px;
+	  font-size: 26px;
+	  color: #bdbdbd;
+	  text-align: center;
+	  cursor: pointer;
+	  font-family: arial;
+	  &:hover{
+      color: @cmn-color_link;
+    }
+	  &.prev{
+	  	left: -30px;
+	  }
+	  &.next{
+	  	right: -30px;
+	  }
+	}
+}

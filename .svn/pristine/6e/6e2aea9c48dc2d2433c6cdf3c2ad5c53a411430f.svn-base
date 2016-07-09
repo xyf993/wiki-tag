@@ -1,0 +1,172 @@
+{
+    "category": {
+        "parentCategory": "娱乐",
+        "categoryName": "电视剧",
+        "currentTag": {
+            "tagName": "内地剧",
+            "tagId": "12345342"
+        },
+        "totalNum": 1000
+    },
+    "filterOptions": 
+    [{
+        "filterName": "时间",
+        "tagRel": 
+        [{
+            "tagId": 12,
+            "tagName": "2014"
+        },
+        {
+            "tagId": 13,
+            "tagName": "2013"
+        },
+        {
+            "tagId": 14,
+            "tagName": "2013"
+        },
+        {
+            "tagId": 15,
+            "tagName": "2012"
+        },
+        {
+            "tagId": 16,
+            "tagName": "2011"
+        },
+        {
+            "tagId": 17,
+            "tagName": "2010"
+        },
+        {
+            "tagId": 18,
+            "tagName": "2009"
+        },
+        {
+            "tagId": 19,
+            "tagName": "2008"
+        },
+        {
+            "tagId": 20,
+            "tagName": "2007"
+        },
+        {
+            "tagId": 21,
+            "tagName": "2006"
+        },
+        {
+            "tagId": 22,
+            "tagName": "2005"
+        },
+        {
+            "tagId": 23,
+            "tagName": "2004"
+        },
+        {
+            "tagId": 21,
+            "tagName": "2006"
+        },
+        {
+            "tagId": 22,
+            "tagName": "2005"
+        },
+        {
+            "tagId": 23,
+            "tagName": "2004"
+        },
+        {
+            "tagId": 21,
+            "tagName": "2006"
+        },
+        {
+            "tagId": 22,
+            "tagName": "2005"
+        },
+        {
+            "tagId": 23,
+            "tagName": "2004"
+        }]
+    },
+    {
+        "filterName": "类型",
+        "tagRel": 
+        [{
+            "tagId": 12,
+            "tagName": "爱情"
+        },
+        {
+            "tagId": 13,
+            "tagName": "动作"
+        },
+        {
+            "tagId": 14,
+            "tagName": "科幻"
+        },
+        {
+            "tagId": 15,
+            "tagName": "惊悚"
+        },
+        {
+            "tagId": 16,
+            "tagName": "战争"
+        },
+        {
+            "tagId": 17,
+            "tagName": "悬疑"
+        },
+        {
+            "tagId": 18,
+            "tagName": "古装"
+        },
+        {
+            "tagId": 19,
+            "tagName": "穿越"
+        },
+        {
+            "tagId": 20,
+            "tagName": "奇幻"
+        },
+        {
+            "tagId": 21,
+            "tagName": "文艺"
+        },
+        {
+            "tagId": 22,
+            "tagName": "恐怖"
+        },
+        {
+            "tagId": 23,
+            "tagName": "搞笑"
+        },
+        {
+            "tagId": 21,
+            "tagName": "文艺"
+        },
+        {
+            "tagId": 22,
+            "tagName": "恐怖"
+        },
+        {
+            "tagId": 23,
+            "tagName": "搞笑"
+        }]
+    },
+    {
+        "filterName": "电台",
+        "tagRel": 
+        [{
+            "tagId": 12,
+            "tagName": "芒果台"
+        },
+        {
+            "tagId": 13,
+            "tagName": "浙江卫视"
+        },
+        {
+            "tagId": 14,
+            "tagName": "江苏卫视"
+        },
+        {
+            "tagId": 15,
+            "tagName": "CCTV6"
+        }]
+    }]
+}

@@ -1,0 +1,153 @@
+#waterFall{
+  position: relative;
+  a{
+    outline: none;
+    text-decoration:none;
+  }
+  .waterFall_item{
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    height: 246px;
+    width: 182px;
+    &:hover{
+      border: 1px solid @cmn-color_baike-blue;
+    }
+    .flip{
+      .cmn-transform-style;
+      .waterFall_title{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 158px;
+        height:44px;
+        color: #333;
+        padding: 0 12px;
+        font-size: 18px;
+        line-height: 52px;
+        .cmn-linear-gradient(top, transparent, rgba(255,255,255,0.9) 20%, rgba(255,255,255,1););
+        background: #fff\9;
+        span{
+          position: absolute;
+          width: 158px;
+          text-align: center;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+      &:hover{
+        .waterFall_title{
+          display: none;
+        }
+        .back{
+          display: block\0;
+          opacity: 1;
+          transition-duration: 0.2s;
+        }
+      }
+      .back{
+        position: absolute;
+        height: 246px;
+        opacity: 0;
+        transition: opacity 1s;
+        display: none\0;
+        .btn_wrap{
+          position: absolute;
+          bottom: 30px;
+          left: 30px;
+          .waterFall_content_btn{
+            height: 34px;
+            width: 120px;
+            font-size: 16px;
+            color: #fff;
+            line-height: 34px;
+            margin: auto;
+            background: @cmn-color_baike-blue;
+            border-radius: 2px;
+            text-align: center;
+            span{
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+    .waterFall_img_wrap{
+      position: absolute;
+      height: 246px;
+      width: 182px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .waterFall_content_wrap{
+      position: absolute;
+      width: 152px;
+      height: 190px;
+      background: #fff;
+      padding: 28px 15px;
+      &.waterFall_content_opacity{
+        .cmn-opacity(0.9);
+      }
+      .waterFall_content_title{
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 140px;
+        font-size: 18px;
+        color: #333;
+      }
+      .waterFall_content_summary{
+        margin-top: 20px;
+        height: 85px;
+        overflow: hidden;
+        font-size: 14px;
+        color: @cmn-color_font-darkgray;
+      }
+    }
+    &.fromLemma{
+      height: 226px;
+      width: 168px;
+      box-shadow: none;
+      .waterFall_img_wrap{
+        height: 226px;
+        width: 168px;
+      }
+      .waterFall_content_wrap{
+        width: 140px;
+        height: 178px;
+        padding: 24px 14px;
+        .waterFall_content_summary{
+          margin-top: 14px;
+        }
+      }
+      .flip{
+        .waterFall_title{
+          width: 146px;
+          height:44px;
+          padding: 0 11px;
+          line-height: 52px;
+          span{
+            width: 146px;
+          }
+        }
+        .back{
+          height: 226px;
+          .btn_wrap{
+            bottom: 26px;
+            left: 30px;
+            .waterFall_content_btn{
+              font-size: 15px;
+              height: 32px;
+              width: 108px;
+              line-height: 32px;
+              span{
+                margin-left: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
